@@ -8,16 +8,20 @@ Esta aplicación móvil tiene como objetivo centralizar y facilitar la comunicac
 
 Desarrollada en *Kotlin* para la plataforma *Android, con arquitectura **MVVM, la app utiliza servicios de **Firebase* para autenticación, base de datos y gestión de enlaces dinámicos.
 
-> *Requisito obligatorio:*  
-> Para clonar, compilar y ejecutar este proyecto, es necesario tener instalada la última versión de Android Studio.
+> *Requisitos obligatorios:*  
+> - Android Studio 2024.3.2.14 o superior
+> - Android SDK 24+
+> - JDK 17 o superior
+> - 8GB RAM mínimo recomendado
+> - 10GB de espacio libre en disco
 
 ## Guía de Instalación
 
 ### Descargar Android Studio
 📥 [Descargar la última versión de Android Studio](https://developer.android.com/studio?hl=es-419)
 
-### Tutorial de Instalación
-📹 [Ver video tutorial de instalación en Android Studio](https://www.loom.com/share/15f943ff31d54af9bd01ba397073e96f?sid=102cda9a-3a41-4fbf-8644-323edfd2a12c)
+### Tutorial de Instalación Paso a Paso
+📹 [Ver video tutorial completo de instalación en Android Studio](https://www.loom.com/share/15f943ff31d54af9bd01ba397073e96f?sid=102cda9a-3a41-4fbf-8644-323edfd2a12c)
 
 ## Video Tutorial de la Aplicación
 
