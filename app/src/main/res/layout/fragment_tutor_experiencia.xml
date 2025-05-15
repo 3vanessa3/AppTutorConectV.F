@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Vista de visualización -->
+        <LinearLayout
+            android:id="@+id/viewMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Línea de tiempo de experiencia -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Línea vertical -->
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="#6A1B9A"
+                    android:layout_marginStart="16dp"/>
+
+                <!-- Contenido de experiencia -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="16dp">
+
+                    <!-- Experiencia 1 -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="24dp">
+
+                        <TextView
+                            android:id="@+id/tvTitulo1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tutor en Programación y Desarrollo Web (2019-actualidad)"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:textColor="#6A1B9A"/>
+
+                        <TextView
+                            android:id="@+id/tvDescripcion1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Imparto clases de programación y desarrollo web, cubriendo lenguajes como HTML, CSS, JavaScript, React y bases de datos SQL, con un enfoque práctico y adaptado a las necesidades de los estudiantes."/>
+                    </LinearLayout>
+
+                    <!-- Experiencia 2 -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="24dp">
+
+                        <TextView
+                            android:id="@+id/tvTitulo2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Especialización en Redes y Seguridad (2021)"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:textColor="#6A1B9A"/>
+
+                        <TextView
+                            android:id="@+id/tvDescripcion2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Formación avanzada en redes y seguridad, con conocimientos en configuración de redes, protocolos de comunicación, ciberseguridad."/>
+                    </LinearLayout>
+
+                    <!-- Experiencia 3 -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvTitulo3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Certificación en Python y SQL (2020)"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:textColor="#6A1B9A"/>
+
+                        <TextView
+                            android:id="@+id/tvDescripcion3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Certificación especializada en Python y SQL, enfocada en el desarrollo de aplicaciones y gestión de bases de datos."/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Botón de editar -->
+            <Button
+                android:id="@+id/btnEditarExperiencia"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="Editar"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#6A1B9A"
+                android:textSize="16sp"
+                android:layout_gravity="end"
+                android:layout_marginTop="16dp"/>
+        </LinearLayout>
+
+        <!-- Vista de edición -->
+        <LinearLayout
+            android:id="@+id/editMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <!-- Experiencia 1 -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etTitulo1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Título de la experiencia 1"
+                    android:textSize="16sp"
+                    android:textColor="#333333"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etDescripcion1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Descripción de la experiencia 1"
+                    android:inputType="textMultiLine"
+                    android:minLines="2"
+                    android:textSize="16sp"
+                    android:textColor="#333333"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Experiencia 2 -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <EditText
+                    android:id="@+id/etTitulo2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Título de la experiencia 2"
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:backgroundTint="#EEEEEE"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <EditText
+                    android:id="@+id/etDescripcion2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Descripción de la experiencia 2"
+                    android:inputType="textMultiLine"
+                    android:minLines="2"
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:backgroundTint="#EEEEEE"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Experiencia 3 -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <EditText
+                    android:id="@+id/etTitulo3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Título de la experiencia 3"
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:backgroundTint="#EEEEEE"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp">
+
+                <EditText
+                    android:id="@+id/etDescripcion3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Descripción de la experiencia 3"
+                    android:inputType="textMultiLine"
+                    android:minLines="2"
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:backgroundTint="#EEEEEE"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Botones de acción -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <!-- Botón agregar experiencia -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnAgregarExperiencia"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="+ Agregar Nueva Experiencia"
+                    android:textColor="#6A1B9A"
+                    app:strokeColor="#6A1B9A"
+                    app:strokeWidth="1dp"
+                    android:backgroundTint="#FFFFFF"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="16dp"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="end">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnCancelar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:text="Cancelar"
+                        android:textColor="#6A1B9A"
+                        app:strokeColor="#6A1B9A"
+                        app:strokeWidth="1dp"
+                        android:backgroundTint="#FFFFFF"
+                        android:textSize="16sp"
+                        android:layout_marginEnd="8dp"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnGuardar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:text="Guardar"
+                        android:textColor="#FFFFFF"
+                        android:backgroundTint="#6A1B9A"
+                        android:textSize="16sp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView> 

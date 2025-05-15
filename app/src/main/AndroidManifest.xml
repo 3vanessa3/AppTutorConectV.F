@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TutorConnect"
+        tools:targetApi="31">
+
+        <!-- Actividad principal -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.TutorConnect">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Nueva actividad de registro -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.TutorConnect" />
+
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".ConfirmacionRecuperacionActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".TutorProfileActivity" />
+        <activity android:name=".ScheduleTutorActivity" />
+        <activity android:name=".CreateAgendaActivity" />
+        <activity android:name=".AgendaDetalleActivity" />
+        <activity android:name=".AnnouncementsActivity" />
+        <activity
+            android:name=".StudentHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentCalendarActivity"
+            android:exported="false"
+            android:theme="@style/Theme.TutorConnect" />
+        <activity
+            android:name=".StudentAgendaDetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.TutorConnect" />
+
+        <!-- Actividades de planificación -->
+        <activity
+            android:name=".StudyPlanDetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.TutorConnect" />
+
+        <activity
+            android:name=".StudyPlanListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudyPlanCreateStep1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".StudyPlanCreateStep2Activity"
+            android:exported="false" />
+
+        <!-- Activities de evaluación -->
+        <activity
+            android:name=".EvaluationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TutorRatingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectTutorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearComunicadoActivity"
+            android:exported="false" />
+
+    </application>
+</manifest>

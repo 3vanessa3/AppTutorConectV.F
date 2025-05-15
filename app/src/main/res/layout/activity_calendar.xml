@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <!-- Header con botón volver -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageButton
+            android:id="@+id/btnVolver"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_back"
+            android:contentDescription="Volver"/>
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Agendar Tutoría"
+            android:textColor="#6A1B9A"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <!-- Calendario -->
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/CalendarViewPurple"/>
+
+    <!-- Formulario -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Hora -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hora"
+                android:textColor="#6A1B9A"
+                android:textSize="16sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <EditText
+                    android:id="@+id/etHoraInicio"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:hint="Hora inicio"
+                    android:inputType="time"
+                    android:background="@drawable/edittext_background"
+                    android:padding="12dp"
+                    android:layout_marginEnd="8dp"/>
+
+                <EditText
+                    android:id="@+id/etHoraFin"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:hint="Hora fin"
+                    android:inputType="time"
+                    android:background="@drawable/edittext_background"
+                    android:padding="12dp"
+                    android:layout_marginStart="8dp"/>
+            </LinearLayout>
+
+            <!-- Materia -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Materia"
+                android:textColor="#6A1B9A"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"/>
+
+            <EditText
+                android:id="@+id/etMateria"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Ej: Álgebra"
+                android:background="@drawable/edittext_background"
+                android:padding="12dp"
+                android:layout_marginTop="8dp"/>
+
+            <!-- Tutor -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tutor"
+                android:textColor="#6A1B9A"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"/>
+
+            <EditText
+                android:id="@+id/etTutor"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Nombre del tutor"
+                android:background="@drawable/edittext_background"
+                android:padding="12dp"
+                android:layout_marginTop="8dp"/>
+
+            <!-- Estudiante -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estudiante"
+                android:textColor="#6A1B9A"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"/>
+
+            <EditText
+                android:id="@+id/etEstudiante"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Nombre del estudiante"
+                android:background="@drawable/edittext_background"
+                android:padding="12dp"
+                android:layout_marginTop="8dp"/>
+
+            <!-- Link de reunión -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Link de reunión"
+                android:textColor="#6A1B9A"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"/>
+
+            <EditText
+                android:id="@+id/etLinkReunion"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="https://meet.google.com/..."
+                android:background="@drawable/edittext_background"
+                android:padding="12dp"
+                android:layout_marginTop="8dp"
+                android:inputType="textUri"/>
+
+            <!-- Valor -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valor"
+                android:textColor="#6A1B9A"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"/>
+
+            <EditText
+                android:id="@+id/etValor"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="$ 70.000"
+                android:background="@drawable/edittext_background"
+                android:padding="12dp"
+                android:layout_marginTop="8dp"
+                android:inputType="numberDecimal"/>
+
+            <!-- Botón Guardar -->
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guardar"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_purple"
+                android:layout_marginTop="24dp"
+                android:padding="12dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout> 

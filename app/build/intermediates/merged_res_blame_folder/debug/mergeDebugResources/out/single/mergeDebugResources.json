@@ -1,0 +1,602 @@
+[
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_schedule_tutor.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_schedule_tutor.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_bottom_navigation.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\bottom_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_send.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_item_study_plan.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\item_study_plan.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\menu_comment_options_menu.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\menu\\comment_options_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_modulo_planification.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\modulo_planification.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_header_wave.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\header_wave.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_arrow_right.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_arrow_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_profile_header_background.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\profile_header_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_header_wave_background.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\header_wave_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_fragment_tutor_experiencia.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\fragment_tutor_experiencia.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_header_curve_bg.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\header_curve_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_dialog_progress.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\dialog_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_student_calendar.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_student_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_bg_news_label.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\bg_news_label.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_bg_rounded_white.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\bg_rounded_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_tutor_profile.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_tutor_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_confirmacion_recuperacion.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_confirmacion_recuperacion.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_more_vert.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_more_vert.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_calendar.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_bg_event_label.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\bg_event_label.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_busqueda.png.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_busqueda.png"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_star.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_star.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_rounded_purple_button.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\rounded_purple_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_confirmacion_recuperacion_activity.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\confirmacion_recuperacion_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_email_sent.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_email_sent.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_dialog_search_professors.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\dialog_search_professors.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_userhome.png.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_userhome.png"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_background.png.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\background.png"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_bg_input.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\bg_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_tutor_rating.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_tutor_rating.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_star_filled.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_star_filled.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_calendar.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_calendar.xml"
+    },
+    {
+        "merged": "com.example.tutorconnect.app-debug-37:/layout_fragment_tutor_datos.xml.flat",
+        "source": "com.example.tutorconnect.app-main-39:/layout/fragment_tutor_datos.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_evaluation.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_evaluation.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_announcements.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_announcements.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_diagonal_purple.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\diagonal_purple.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_dialog_study_plan_detail.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\dialog_study_plan_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_study_plan_create_step1.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_study_plan_create_step1.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_evaluation.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_evaluation.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_study_plan_success.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_study_plan_success.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_student_profile.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_student_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_item_announcement.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\item_announcement.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_rounded_button_white.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\rounded_button_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_bottom_nav_background.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\bottom_nav_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_fragment_student_progress.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\fragment_student_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_item_professor.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\item_professor.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_empty_ratings.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_empty_ratings.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\menu_bottom_navigation.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\menu\\bottom_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_dialog_edit_comment.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\dialog_edit_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_item_student_tutoria.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\item_student_tutoria.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_fragment_student_datos.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\fragment_student_datos.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_button_purple.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\button_purple.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_study_plan_list.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_study_plan_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_status_background.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\status_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_item_comment.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\item_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_fondo_perfil.png.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\fondo_perfil.png"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_fragment_profesor_calificaciones.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\fragment_profesor_calificaciones.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_dialog_comments.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\dialog_comments.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_like.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_like.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_search_background.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\search_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_fragment_tutor_datos.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\fragment_tutor_datos.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_lock.png.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_lock.png"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_bienvenida.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_bienvenida.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_rounded_white_bg.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\rounded_white_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_modulo_purple.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\modulo_purple.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_user.png.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_user.png"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_profile_placeholder.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\profile_placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_rounded_button.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\rounded_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_modulo_purple_background.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\modulo_purple_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_comment.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_fragment_favorites.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\fragment_favorites.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_fragment_student_favorites.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\fragment_student_favorites.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_planification.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_planification.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_item_calificacion.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\item_calificacion.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_study_plan_create_step2.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_study_plan_create_step2.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_bg_course_label.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\bg_course_label.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_default_avatar.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\default_avatar.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_item_profesor_favorito.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\item_profesor_favorito.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\anim_bounce.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\anim\\bounce.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_select_tutor.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_select_tutor.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_fragment_tutor_calificacion.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\fragment_tutor_calificacion.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_item_session.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\item_session.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_check_circle.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_check_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_edittext_background.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\edittext_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_dialog_update_progress.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\dialog_update_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_item_calificacion_recibida.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\item_calificacion_recibida.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_gradient_purple.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\gradient_purple.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_student_home.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_student_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_circle_background.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\circle_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_fragment_student_calificar.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\fragment_student_calificar.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_item_agenda.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\item_agenda.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_fragment_student_profile_edit.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\fragment_student_profile_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_announcement.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_announcement.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_def_bienvenida.png.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_def_bienvenida.png"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_welcome.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_arrow_back_dark.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_arrow_back_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_agenda_detalle.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_agenda_detalle.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_email.png.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_email.png"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_bg_button.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\bg_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\menu_plan_options.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\menu\\plan_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_fragment_academic_progress.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\fragment_academic_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_card_border.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\card_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_student_agenda_detail.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_student_agenda_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_item_tutor_session.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\item_tutor_session.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_dialog_create_announcement.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\dialog_create_announcement.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_header_background_curve.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\header_background_curve.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_phone.png.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_study_plan_detail.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_study_plan_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_activity_crear_comunicado.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\activity_crear_comunicado.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_modulo_purple.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\modulo_purple.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_arrow.png.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_edit.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_item_tutoria.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\item_tutoria.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\layout_dialog_tutoria_detalle.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\layout\\dialog_tutoria_detalle.xml"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_ic_home.png.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-debug-37:\\drawable_default_profile_image.xml.flat",
+        "source": "C:\\Users\\karen\\.gradle\\daemon\\8.11.1\\com.example.tutorconnect.app-main-39:\\drawable\\default_profile_image.xml"
+    }
+]

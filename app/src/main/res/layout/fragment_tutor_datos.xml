@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Vista de visualización -->
+        <LinearLayout
+            android:id="@+id/viewMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Datos Personales -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/tvNombre"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                    android:text="Nombre tutor"
+                    android:textSize="18sp"
+                    android:textColor="#333333"
+                    android:textStyle="bold"/>
+
+                <Button
+                android:id="@+id/btnEditar"
+                android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Editar"
+                    android:textColor="#FFFFFF"
+                    android:backgroundTint="#6A1B9A"
+                    android:textSize="14sp"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"/>
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvEdad"
+            android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="28 años"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/tvEspecialidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Matemáticas y Física"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Disponibilidad -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disponibilidad"
+            android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#333333"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvHorario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lunes a viernes de 6:00 p.m. a 10:00 p.m."
+                android:textSize="14sp"
+                android:textColor="#666666"
+                android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvModalidades"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modalidades: Presencial y virtual"
+                android:textSize="14sp"
+                android:textColor="#666666"
+            android:layout_marginBottom="16dp"/>
+
+            <!-- Contacto -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Métodos de Contacto"
+            android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#333333"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="maria.gonzalez@tutorconnect.com"
+                android:textSize="14sp"
+                android:textColor="#666666"
+            android:drawableStart="@android:drawable/ic_dialog_email"
+            android:drawablePadding="8dp"
+                android:drawableTint="#666666"
+                android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+57 312 345 6789"
+                android:textSize="14sp"
+                android:textColor="#666666"
+            android:drawableStart="@android:drawable/ic_menu_call"
+            android:drawablePadding="8dp"
+                android:drawableTint="#666666"
+                android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvWhatsapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+57 312 345 6789"
+                android:textSize="14sp"
+                android:textColor="#666666"
+            android:drawableStart="@android:drawable/ic_dialog_info"
+            android:drawablePadding="8dp"
+                android:drawableTint="#666666"
+                android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvUbicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bogotá, Colombia"
+                android:textSize="14sp"
+                android:textColor="#666666"
+            android:drawableStart="@android:drawable/ic_menu_mylocation"
+                android:drawablePadding="8dp"
+                android:drawableTint="#666666"/>
+        </LinearLayout>
+
+        <!-- Vista de edición -->
+        <LinearLayout
+            android:id="@+id/editMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <!-- Campos de edición -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#EEEEEE">
+
+                <EditText
+                    android:id="@+id/etNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nombre"
+                    android:inputType="textPersonName"
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:backgroundTint="#EEEEEE"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#EEEEEE">
+
+                <EditText
+                    android:id="@+id/etEdad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Edad"
+                    android:inputType="number"
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:backgroundTint="#EEEEEE"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:backgroundTint="#EEEEEE">
+
+                <EditText
+                    android:id="@+id/etEspecialidad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Especialidad"
+                    android:inputType="text"
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:backgroundTint="#EEEEEE"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disponibilidad"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#333333"
+                android:layout_marginBottom="16dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#EEEEEE">
+
+                <EditText
+                    android:id="@+id/etHorario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Horario"
+                    android:inputType="text"
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:backgroundTint="#EEEEEE"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:backgroundTint="#EEEEEE">
+
+                <EditText
+                    android:id="@+id/etModalidades"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Modalidades"
+                    android:inputType="text"
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:backgroundTint="#EEEEEE"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Métodos de Contacto"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#333333"
+                android:layout_marginBottom="16dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#EEEEEE">
+
+                <EditText
+                    android:id="@+id/etEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:backgroundTint="#EEEEEE"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#EEEEEE">
+
+                <EditText
+                    android:id="@+id/etTelefono"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Teléfono"
+                    android:inputType="phone"
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:backgroundTint="#EEEEEE"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#EEEEEE">
+
+                <EditText
+                    android:id="@+id/etWhatsapp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="WhatsApp"
+                    android:inputType="phone"
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:backgroundTint="#EEEEEE"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#EEEEEE">
+
+                <EditText
+                    android:id="@+id/etUbicacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ubicación"
+                    android:inputType="textPostalAddress"
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:backgroundTint="#EEEEEE"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Botones de acción -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end"
+                android:layout_marginTop="24dp">
+
+                <Button
+                    android:id="@+id/btnCancelar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Cancelar"
+                    android:textColor="#6A1B9A"
+                    android:backgroundTint="#FFFFFF"
+                    android:textSize="14sp"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:layout_marginEnd="8dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:stateListAnimator="@null"
+                    android:elevation="0dp"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+                <Button
+                    android:id="@+id/btnGuardar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Guardar"
+                    android:textColor="#FFFFFF"
+                    android:backgroundTint="#6A1B9A"
+                    android:textSize="14sp"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView> 

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "836263835359",
+    "firebase_url": "https://bd-tutorconnect-default-rtdb.firebaseio.com",
+    "project_id": "bd-tutorconnect",
+    "storage_bucket": "bd-tutorconnect.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836263835359:android:20d2b7f924c1187df65b6a",
+        "android_client_info": {
+          "package_name": "com.example.tutorconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJW0JVFOLMg7OhrX0vMsSIfungzWYTX2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

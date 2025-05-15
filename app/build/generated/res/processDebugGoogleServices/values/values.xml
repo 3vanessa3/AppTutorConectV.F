@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://bd-tutorconnect-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">836263835359</string>
+    <string name="google_api_key" translatable="false">AIzaSyCJW0JVFOLMg7OhrX0vMsSIfungzWYTX2I</string>
+    <string name="google_app_id" translatable="false">1:836263835359:android:20d2b7f924c1187df65b6a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCJW0JVFOLMg7OhrX0vMsSIfungzWYTX2I</string>
+    <string name="google_storage_bucket" translatable="false">bd-tutorconnect.firebasestorage.app</string>
+    <string name="project_id" translatable="false">bd-tutorconnect</string>
+</resources>

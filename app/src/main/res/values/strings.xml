@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TutorConnect</string>
+    <string name="background_image">Fondo con ondas</string>
+    <string name="logo_image">Logo TutorConnect</string>
+    <string name="email_icon">Ícono de correo enviado</string>
+    <string name="recover_password">Recuperar contraseña</string>
+    <string name="recover_with_email">Recuperar con correo</string>
+    <string name="email_hint">E-mail</string>
+    <string name="recover">Recuperar</string>
+    <string name="background_image_desc">Imagen de fondo</string>
+    <string name="radio_email_option_desc">Opción de recuperación por correo</string>
+    <string name="email_icon_desc">Ícono de correo electrónico</string>
+    <string name="button_recover_desc">Botón para recuperar contraseña</string>
+    <string name="fondo">Fondo</string>
+    <string name="icono_usuario">Icono usuario</string>
+    <string name="icono_contrasena">Icono contraseña</string>
+    <string name="icono_email">Icono email</string>
+    <string name="icono_telefono">Icono teléfono</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="crear_cuenta_tutor">Crear cuenta como tutor</string>
+    <string name="registrar">REGISTRAR</string>
+    <string name="hint_nombre">Nombre completo</string>
+    <string name="hint_contrasena">Contraseña</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_telefono">Teléfono</string>
+    <string name="profile_title">Perfil</string>
+</resources>

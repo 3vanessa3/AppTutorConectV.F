@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorAction">#2196F3</color>
+    <color name="colorPending">#757575</color>
+    <color name="colorRated">#4CAF50</color>
+    <color name="gray_dark">#666666</color>
+    <color name="light_purple">#F5F0FF</color>
+    <color name="orange">#FFFF9800</color>
+    <color name="primary">#6A1B9A</color>
+    <color name="primary_dark">#4A1269</color>
+    <color name="primary_light">#9C4DCC</color>
+    <color name="purple_100">#FFD8B4FF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#6A1B9A</color>
+    <color name="purple_700">#6A1B9A</color>
+    <color name="purple_dark">#6A1B9A</color>
+    <color name="purple_primary">#6A1B9A</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">TutorConnect</string>
+    <string name="background_image">Fondo con ondas</string>
+    <string name="background_image_desc">Imagen de fondo</string>
+    <string name="button_recover_desc">Botón para recuperar contraseña</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="crear_cuenta_tutor">Crear cuenta como tutor</string>
+    <string name="email_hint">E-mail</string>
+    <string name="email_icon">Ícono de correo enviado</string>
+    <string name="email_icon_desc">Ícono de correo electrónico</string>
+    <string name="firebase_database_url" translatable="false">https://bd-tutorconnect-default-rtdb.firebaseio.com</string>
+    <string name="fondo">Fondo</string>
+    <string name="gcm_defaultSenderId" translatable="false">836263835359</string>
+    <string name="google_api_key" translatable="false">AIzaSyCJW0JVFOLMg7OhrX0vMsSIfungzWYTX2I</string>
+    <string name="google_app_id" translatable="false">1:836263835359:android:20d2b7f924c1187df65b6a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCJW0JVFOLMg7OhrX0vMsSIfungzWYTX2I</string>
+    <string name="google_storage_bucket" translatable="false">bd-tutorconnect.firebasestorage.app</string>
+    <string name="hint_contrasena">Contraseña</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_nombre">Nombre completo</string>
+    <string name="hint_telefono">Teléfono</string>
+    <string name="icono_contrasena">Icono contraseña</string>
+    <string name="icono_email">Icono email</string>
+    <string name="icono_telefono">Icono teléfono</string>
+    <string name="icono_usuario">Icono usuario</string>
+    <string name="logo_image">Logo TutorConnect</string>
+    <string name="profile_title">Perfil</string>
+    <string name="project_id" translatable="false">bd-tutorconnect</string>
+    <string name="radio_email_option_desc">Opción de recuperación por correo</string>
+    <string name="recover">Recuperar</string>
+    <string name="recover_password">Recuperar contraseña</string>
+    <string name="recover_with_email">Recuperar con correo</string>
+    <string name="registrar">REGISTRAR</string>
+    <style name="CalendarDateText">
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="CalendarViewPurple">
+        <item name="android:colorAccent">#6A1B9A</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:textColorSecondary">#808080</item>
+        <item name="android:headerBackground">#6A1B9A</item>
+        <item name="android:weekDayTextAppearance">@style/CalendarWeekText</item>
+        <item name="android:dateTextAppearance">@style/CalendarDateText</item>
+    </style>
+    <style name="CalendarWeekText">
+        <item name="android:textColor">#6A1B9A</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CircleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="FullScreenDialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+    <style name="Theme.TutorConnect" parent="Theme.MaterialComponents.Light.NoActionBar">
+        
+        <item name="colorPrimary">#6A1B9A</item>
+        <item name="colorPrimaryVariant">#4A148C</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">#9C27B0</item>
+        <item name="colorSecondaryVariant">#7B1FA2</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+    <style name="Theme.TutorConnect.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.TutorConnect.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.TutorConnect.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

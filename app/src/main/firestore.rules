@@ -1,0 +1,89 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Funciones auxiliares
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return request.auth.uid == userId;
+    }
+
+    function isProfesor() {
+      return exists(/databases/$(database)/documents/Profesores/$(request.auth.uid));
+    }
+
+    // Reglas para la colección de datos_profesor
+    match /datos_profesor/{profesorId} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && 
+                  isOwner(profesorId) && 
+                  exists(/databases/$(database)/documents/Profesores/$(request.auth.uid));
+    }
+
+    // Reglas para la colección de datos_Estudiante
+    match /datos_Estudiante/{estudianteId} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && 
+                  isOwner(estudianteId) && 
+                  exists(/databases/$(database)/documents/Estudiantes/$(request.auth.uid));
+    }
+
+    // Reglas para la colección Experiencia_Profesor
+    match /Experiencia_Profesor/{profesorId} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && 
+                  isProfesor() && 
+                  isOwner(profesorId);
+      
+      match /experiencias/{experienciaId} {
+        allow read: if isAuthenticated();
+        allow write: if isAuthenticated() && 
+                    isProfesor() && 
+                    isOwner(profesorId);
+      }
+    }
+
+    // Reglas para plan de estudio
+    match /Plan_de_estudios/{planId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    // Mantener las reglas existentes para otras colecciones
+    match /comunicados/{comunicadoId} {
+      allow read: if isAuthenticated();
+      allow create, update: if isAuthenticated() && isProfesor();
+      allow delete: if isAuthenticated() && isProfesor();
+    }
+
+    match /comentarios/{comentarioId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated();
+      allow update, delete: if isAuthenticated() && 
+        (resource.data.autorId == request.auth.uid || isProfesor());
+    }
+
+    match /Profesores/{profesorId} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && isOwner(profesorId);
+    }
+
+    match /Estudiantes/{estudianteId} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && isOwner(estudianteId);
+    }
+
+    match /likes/{likeId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated();
+      allow delete: if isAuthenticated() && resource.data.userId == request.auth.uid;
+    }
+
+    match /Calificaciones/{calificacionId} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && isProfesor();
+    }
+  }
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Espacio blanco antes de la barra -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/white"/>
+
+    <!-- Barra de navegación -->
+    <LinearLayout
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bottom_nav_background"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingHorizontal="24dp"
+        android:layout_margin="12dp">
+
+        <ImageView
+            android:id="@+id/nav_home"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_home"
+            android:contentDescription="Inicio"
+            android:layout_weight="1"
+            android:padding="2dp"
+            app:tint="@null" />
+
+        <ImageView
+            android:id="@+id/nav_search"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_calendar"
+            android:contentDescription="Mis Tutorías"
+            android:layout_weight="1"
+            android:padding="2dp"
+            app:tint="@null" />
+
+        <ImageView
+            android:id="@+id/nav_profile"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_userhome"
+            android:contentDescription="Perfil"
+            android:layout_weight="1"
+            android:padding="2dp"
+            app:tint="@null" />
+    </LinearLayout>
+</LinearLayout> 

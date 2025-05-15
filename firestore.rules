@@ -1,0 +1,119 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Funciones auxiliares
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return request.auth.uid == userId;
+    }
+
+    function isProfesor() {
+      return get(/databases/$(database)/documents/Profesores/$(request.auth.uid)).data != null;
+    }
+
+    function isValidDatosProfesor(data) {
+      return data.keys().hasAll(['nombre', 'edad', 'especialidad', 'horario', 'modalidad', 'email', 'telefono']) &&
+             data.nombre is string && data.nombre.size() > 0 &&
+             data.edad is string &&
+             data.especialidad is string &&
+             data.horario is string &&
+             data.modalidad is string &&
+             data.email is string && data.email.matches('^[^@]+@[^@]+\\.[^@]+$') &&
+             data.telefono is string;
+    }
+
+    function isValidExperiencia(data) {
+      return data.keys().hasAll(['experiencias']) &&
+             data.experiencias is list &&
+             data.experiencias.size() <= 10 &&
+             data.experiencias.hasAll([{
+               'titulo': string,
+               'descripcion': string,
+               'orden': number
+             }]);
+    }
+
+    // Reglas para la colección de usuarios (nueva)
+    match /users/{userId} {
+      allow read: if isAuthenticated();
+      // Permitir búsqueda por email para recuperación de contraseña
+      allow read: if request.query.limit <= 1 && 
+                 request.query.filters.size() == 1 && 
+                 request.query.filters[0].field == 'email';
+      allow write: if isAuthenticated() && isOwner(userId);
+    }
+
+    // Reglas para la colección de comunicados
+    match /comunicados/{comunicadoId} {
+      allow read: if request.auth != null;
+      allow create, update: if isAuthenticated() && isProfesor();
+      allow delete: if isAuthenticated() && isProfesor();
+    }
+
+    // Reglas para la colección de comentarios
+    match /comentarios/{comentarioId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated();
+      allow update, delete: if isAuthenticated() && 
+        (resource.data.autorId == request.auth.uid || isProfesor());
+    }
+
+    // Reglas para la colección de profesores
+    match /Profesores/{profesorId} {
+      allow read: if isAuthenticated() ||
+                 (request.query.limit <= 1 && 
+                  request.query.filters.size() == 1 && 
+                  request.query.filters[0].field == 'email');
+      allow write: if isAuthenticated() && isOwner(profesorId);
+    }
+
+    // Reglas para la colección de estudiantes
+    match /Estudiantes/{estudianteId} {
+      allow read: if isAuthenticated() ||
+                 (request.query.limit <= 1 && 
+                  request.query.filters.size() == 1 && 
+                  request.query.filters[0].field == 'email');
+      allow write: if isAuthenticated() && isOwner(estudianteId);
+    }
+
+    // Reglas para la colección de likes
+    match /likes/{likeId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated();
+      allow delete: if isAuthenticated() && resource.data.userId == request.auth.uid;
+    }
+
+    // Reglas para la colección de calificaciones
+    match /Calificaciones/{calificacionId} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && isProfesor();
+    }
+
+    // Reglas para la colección de experiencia del profesor
+    match /Experiencia_Profesor/{experienciaId} {
+      allow read: if isAuthenticated();
+      allow create, update: if isAuthenticated() && 
+        isProfesor() && 
+        isOwner(experienciaId) && 
+        isValidExperiencia(request.resource.data);
+      allow delete: if isAuthenticated() && 
+        isProfesor() && 
+        isOwner(experienciaId);
+    }
+
+    // Reglas para la colección de datos del profesor
+    match /Datos_Profesor/{datosId} {
+      allow read: if isAuthenticated();
+      allow create, update: if isAuthenticated() && 
+        isProfesor() && 
+        isOwner(datosId) && 
+        isValidDatosProfesor(request.resource.data);
+      allow delete: if isAuthenticated() && 
+        isProfesor() && 
+        isOwner(datosId);
+    }
+  }
+}
