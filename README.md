@@ -12,6 +12,10 @@ Desarrollada en *Kotlin* para la plataforma *Android, con arquitectura **MVVM, l
 > Para clonar, compilar y ejecutar este proyecto, es necesario tener instalada la versión:  
 > *Android Studio 2024.3.2.14 (Windows)*
 
+## Video Tutorial
+
+📹 [Ver video tutorial de navegación por los módulos de la aplicación](https://www.loom.com/share/5d951433cef846c59616cb435473ca40?sid=e96314be-51f7-40ae-b092-0cf4be916dc6)
+
 ---
 
 ## Módulos Comunes
